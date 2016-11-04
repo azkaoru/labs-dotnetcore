@@ -12,4 +12,10 @@ dotnet --version
 
 ### TodoApi
 
+```
+cd first-web-api/TodoApi
+dotnet restore
+dotnet run
+```
+
 
