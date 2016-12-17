@@ -58,6 +58,7 @@ namespace ConsoleApplication
             TimelineDto timelineDto =this._mapper.Map<Timeline,TimelineDto>(timeline);
             Console.WriteLine(timelineDto.Time+":"+timelineDto.Message);
         }
+
     }
 
     public class Program
